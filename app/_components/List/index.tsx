@@ -11,7 +11,7 @@ type Props = {
 export default function List({ article }: Props) {
   return (
     <Link href={`/articles/${article.id}`} className={styles.list}>
-      <Image
+      <img
         src={article.thumbnail.url}
         alt=""
         width={article.thumbnail.width}

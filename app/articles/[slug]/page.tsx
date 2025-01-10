@@ -55,7 +55,7 @@ export default async function Page({ params, searchParams }: Props) {
         <div>
           <PublishDate date={data.publishedAt || data.createdAt} />
         </div>
-        <Image
+        <img
           src={data.thumbnail.url}
           alt=""
           width={data.thumbnail.width}

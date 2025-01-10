@@ -10,7 +10,7 @@ type Props = {
 export default function Card({ article }: Props) {
   return (
     <Link href={`/articles/${article.id}`}>
-      <Image
+      <img
         src={article.thumbnail.url}
         alt=""
         width={article.thumbnail.width}
